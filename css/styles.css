@@ -41,6 +41,17 @@
     border-right: 5px solid var(--bio-border-color);
 }
 
+#facens a {
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+#facens:hover {
+    color:#0b0c0c; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
 #about-container {
     flex: 1 1 80%;
     min-height: 100vh;
